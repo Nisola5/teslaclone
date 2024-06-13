@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gothic A1", sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    background: transparent;
+    background: url('./images/Homepage-Model-3-Desktop-LHD-v2\ \(1\).avif');
+    height: 100vh;
+    background-size: cover;
+    padding: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tesla{
+    width: 120px;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.icon{
+    width: 30px;
+}
+
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pees{
+    margin-top: 120px;
+    text-align: center;
+}
+
+.model{
+    font-size: 38pt;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.from{
+    font-size: 12pt;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.after{
+    font-size: 9pt;
+}
+
+.btnDiv{
+    display: flex;
+    margin-top: 450px;
+    gap: 20px;
+}
+
+.btn1{
+    width: 258px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 12pt;
+    font-weight: 400;
+}
+
+.btn2{
+    width: 258px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 12pt;
+    font-weight: 400;
+    background-color: black;
+    color: aliceblue;
+}
+.secondpagebn{
+    width: 100%;
+    background: url('./images/Homepage-Model-3-Desktop-LHD-v2.avif');
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.thirdpagebn{
+    width: 100%;
+    background: url('./images/3.avif');
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.fourthpagebn{
+    width: 100%;
+    background: url('./images/4.avif');
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fifthpagebn{
+    width: 100%;
+    background: url('./images/5.avif');
+    background-size: cover;
+    color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tcl-homepage-hero__cybertruck-logo {
+    display: inline-block;
+    width: 450px;
+}
+
+.sixthpagebn{
+    width: 100%;
+    background: url('./images/06.avif');
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.seventhpagebn{
+    width: 100%;
+    background: url('./images/07.avif');
+    background-size: cover;
+    color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.eightpagebn{
+    width: 100%;
+    background: url('./images/09.avif');
+    background-size: cover;
+    color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.lastpagebn{
+    width: 100%;
+    background: url('./images/10.avif');
+    background-size: cover;
+    color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+a{
+    color: aliceblue;
+}
+
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 90px;
+}
+
+.fp{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: smaller;
+}
+
+.ppage{
+    text-align: center;
+    font-size: smaller;
+    margin-bottom: 15px;
+}
